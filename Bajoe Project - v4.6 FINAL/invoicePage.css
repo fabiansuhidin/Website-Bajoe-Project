@@ -1,0 +1,51 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #f4f4f2;
+}
+.invoice{
+  margin: auto;
+  display: block;
+  font-family: 'Fredoka One', cursive;
+  color: #495464;
+}
+
+/* Table */
+table {
+  text-align: center;
+  font-size: 24px;
+}
+table thead, tbody{
+  color: #495464;
+}
+.qty, .price{
+  font-family: 'Nunito Sans';
+  font-weight: 400;
+}
+.font-change{
+  font-family: 'Nunito Sans';
+  font-weight: 900;
+}
+.total-table{
+  text-align: right;
+  font-size: 42px;
+}
+.total-table-price{
+  text-align: center;
+  font-size: 42px;
+  font-style: italic;
+}
+table .border-left, .border-top{
+  border-color: #495464 !important;
+  border-width: thick !important;
+}
+
+/* Footer */
+.footer{
+  font-family: 'Fredoka One';
+  color: #495464;
+  font-weight: 400;
+  size: 28px;
+  text-align: center;
+  margin: 80px;
+}
